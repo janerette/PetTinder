@@ -1,0 +1,178 @@
+html, body {
+  height:100%;
+}
+
+#root {
+  height:100%;
+}
+
+.app {
+  height:100%;
+}
+
+.main-content {
+    height:100%;
+}
+
+.App-logo {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+          animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+
+.small-padding {
+    padding:15px;
+}
+
+.small-padding-left {
+    padding-left: 15px;
+}
+
+.small-padding-right {
+    padding-right: 15px;
+}
+
+.small-padding-top {
+    padding-top: 15px;
+}
+
+.small-padding-bottom {
+    padding-bottom: 15px;
+}
+
+.big-padding-top {
+    padding-top: 60px;
+}
+
+a {
+    color: #7b17e5;
+    cursor:pointer;
+    font-weight: normal;
+}
+
+h2 {
+    margin:0;
+}
+
+hr {
+    border:0;
+    outline: none;
+    height:1px;
+    background-color: #E1E1E1;
+}
+
+.flex-row {
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.flex-1 {
+    -ms-flex: 1 1 0%;
+        flex: 1 1 0%;
+    -webkit-flex: 1;
+}
+
+.flex-2 {
+    -ms-flex: 2 1 0%;
+        flex: 2 1 0%;
+    -webkit-flex: 2;
+}
+
+.flex-3 {
+    -ms-flex: 3 1 0%;
+        flex: 3 1 0%;
+    -webkit-flex: 3;
+}
+
+.flex-4 {
+    -ms-flex: 4 1 0%;
+        flex: 4 1 0%;
+    -webkit-flex: 4;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-right {
+    text-align: right;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea {
+    background:#fff;
+    border:0;
+    outline:0;
+    -webkit-appearance:none;
+    font-size: 1em;
+    padding: 10px;
+    width:100%;
+    -webkit-box-sizing:border-box;
+            box-sizing:border-box;
+    margin-bottom:15px;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, textarea:focus {
+}
+
+input[type="submit"],
+a.button {
+    background: #A150F6;
+    border: 0;
+    outline: 0;
+    font-size: 0.9em;
+    margin-top: 1em;
+    cursor: pointer;
+    padding: 0 10px;
+    min-width: 100px;
+    font-weight:600;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 40px;
+    -o-transition: .5s;
+    transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    letter-spacing:1px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/modules/App/App.css

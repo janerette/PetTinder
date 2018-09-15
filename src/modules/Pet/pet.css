@@ -1,0 +1,17 @@
+.slick-dots li {
+    width:13px;
+}
+
+.slick-dots li button:before {
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+}
+
+.slick-dots li.slick-active button:before {
+    color: #7B17E5;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/modules/Pet/pet.css

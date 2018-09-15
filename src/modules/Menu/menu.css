@@ -1,0 +1,27 @@
+.main-nav {
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:1000;
+}
+
+.main-menu {
+    width:100%;
+    padding:15px 0;
+    position:relative;
+}
+
+.menu-logo {
+    width: 100px;
+}
+
+.main-menu a {
+    display:block;
+    line-height:40px;
+    font-size:20px;
+}
+
+
+// WEBPACK FOOTER //
+// ./src/modules/Menu/menu.css
